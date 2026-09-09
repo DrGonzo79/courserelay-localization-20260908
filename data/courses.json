@@ -1,0 +1,54 @@
+[
+  {
+    "id": "excel-ops",
+    "title": "Excel Automation for Operations",
+    "category": "Business",
+    "reviews": 4830,
+    "rating": 4.7,
+    "hours": 12,
+    "sourcePrice": 79,
+    "languages": ["English"],
+    "targets": { "Spanish": 86, "Portuguese": 91, "French": 72 },
+    "risk": "Low",
+    "note": "Durable workplace topic with strong LATAM search intent."
+  },
+  {
+    "id": "ai-realtors",
+    "title": "Practical AI for Real Estate Agents",
+    "category": "Marketing",
+    "reviews": 2190,
+    "rating": 4.8,
+    "hours": 7,
+    "sourcePrice": 99,
+    "languages": ["English", "German"],
+    "targets": { "Spanish": 100, "Portuguese": 84, "French": 68 },
+    "risk": "Medium",
+    "note": "High commercial intent, but examples require local regulation review."
+  },
+  {
+    "id": "shopify-email",
+    "title": "Lifecycle Email for Shopify Stores",
+    "category": "E-commerce",
+    "reviews": 1560,
+    "rating": 4.6,
+    "hours": 9,
+    "sourcePrice": 89,
+    "languages": ["English"],
+    "targets": { "Spanish": 78, "Portuguese": 88, "French": 81 },
+    "risk": "Low",
+    "note": "Clear before-and-after outcomes and an affiliate-friendly audience."
+  },
+  {
+    "id": "food-photo",
+    "title": "Restaurant Food Photography",
+    "category": "Creative",
+    "reviews": 1120,
+    "rating": 4.9,
+    "hours": 5,
+    "sourcePrice": 59,
+    "languages": ["English", "Spanish"],
+    "targets": { "Spanish": 34, "Portuguese": 76, "French": 79 },
+    "risk": "Low",
+    "note": "Visual material localizes well; Spanish is already served."
+  }
+]
