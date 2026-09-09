@@ -107,9 +107,9 @@ export default function Home() {
       </section>
 
       <section className="toolbar" aria-label="Market controls">
-        <div className="market-select"><label htmlFor="language">Target market</label><div><Flag language={language} /><select id="language" value={language} onChange={event => { setLanguage(event.target.value as Language); setAnalysis(null); }}>
+        <div className="market-select"><label htmlFor="language">Target market</label><div><Flag language={language} /><select id="language" disabled={!ready} value={language} onChange={event => { setLanguage(event.target.value as Language); setAnalysis(null); }}>
           {languages.map(item => <option key={item}>{item}</option>)}</select><ChevronDown size={15} /></div></div>
-        <label className="search"><Search size={17} /><input aria-label="Search courses" placeholder="Search course or category" value={query} onChange={event => setQuery(event.target.value)} /></label>
+        <label className="search"><Search size={17} /><input disabled={!ready} aria-label="Search courses" placeholder="Search course or category" value={query} onChange={event => setQuery(event.target.value)} /></label>
         <div className="criteria"><span><Check size={13} /> 1,000+ reviews</span><span><Check size={13} /> Rights-first</span><span><Check size={13} /> Payback modeled</span></div>
       </section>
 
